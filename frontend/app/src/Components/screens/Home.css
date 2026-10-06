@@ -1,0 +1,56 @@
+.table-box {
+  width: 100%;
+  max-width: 100%;
+  height: 450px;
+  overflow: auto;
+  border: 1px solid #ddd;
+}
+
+.table-box table {
+  width: max-content !important;
+  min-width: 100%;
+  margin: 0 !important;
+}
+
+.table-box th,
+.table-box td {
+  white-space: nowrap !important;
+  padding: 8px 14px !important;
+  height: auto !important;
+  line-height: 1.4 !important;
+  vertical-align: middle !important;
+}
+
+.table-box thead th {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.pagination-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination-box button,
+.pagination-box .page-number {
+  background: #666;
+  color: #fff;
+  border: none;
+  padding: 14px 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pagination-box .page-number {
+  background: #111;
+  cursor: default;
+}
+
+.pagination-box button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

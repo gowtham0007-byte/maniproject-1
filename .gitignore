@@ -1,0 +1,12 @@
+myenv/
+venv/
+.venv/
+node_modules/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+backend/project/db.sqlite3
+.env
+.env.*
+!.env.example
